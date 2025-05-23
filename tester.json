@@ -1,0 +1,17 @@
+{
+  "data": {
+    "name": "Dorgyman",
+    "email": "Wassa@stud.noroff.no",
+    "bio": null,
+    "avatar": {
+      "url": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=80&h=400&w=400",
+      "alt": "A blurry multi-colored rainbow background"
+    },
+    "banner": {
+      "url": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=80&h=500&w=1500",
+      "alt": "A blurry multi-colored rainbow background"
+    },
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRG9yZ3ltYW4iLCJlbWFpbCI6Ildhc3NhQHN0dWQubm9yb2ZmLm5vIiwiaWF0IjoxNzQ0MTI1MzA5fQ.Js1AZ7yWekJl-9UL9lGZzaKSrgiyUC-cBpRsSBDCLdY"
+  },
+  "meta": {}
+}

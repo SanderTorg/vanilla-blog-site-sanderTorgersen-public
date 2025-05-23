@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Blog to see the world through photos and description of that place"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>WanderBlog | Home</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./src/index.mjs" defer></script>
+    <script type="module" src="./src/carusel.mjs" defer></script>
+    <script type="module" src="./src/hamburger.mjs" defer></script>
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="c-navbar">
+        <a href="/" class="c-brand-name" aria-label="link to home page"
+          >WanderBlog
+        </a>
+
+        <ul class="c-nav-menu" id="js-nav-menu">
+          <li role="home" aria-label="home page" class="c-nav-item c-uppercase">
+            <a href="/" class="c-nav-link" aria-label="link to home page"
+              >Home
+            </a>
+          </li>
+
+          <li
+            role="home"
+            aria-label="contact page"
+            class="c-nav-item c-uppercase"
+          >
+            <a
+              href="./src/contact.html"
+              class="c-nav-link"
+              aria-label="link to contact page"
+              >Contact
+            </a>
+          </li>
+
+          <div id="js-navCreate" class="c-nav-create"></div>
+        </ul>
+
+        <div class="c-nav-right">
+          <div class="c-nav-user" id="js-navUser"></div>
+          <div class="c-ham-cont">
+            <div class="c-hamburger" id="js-hamburger">
+              <span class="c-bar"></span>
+              <span class="c-bar"></span>
+              <span class="c-bar"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main">
+      <section class="c-hero">
+        <h1 class="c-h1">
+          Welcome to WanderBlog - where every photo tells a story
+        </h1>
+      </section>
+
+      <section class="l-about">
+        <p class="c-about-text">
+          We’re a community of explorers, photographers, and storytellers
+          capturing the essence of the world one snapshot at a time. From quiet
+          mountain villages to buzzing city streets, every place holds a unique
+          atmosphere, and we believe the best way to experience it is through
+          the lens and the heart.
+        </p>
+        <p class="c-about-text">
+          On Wanderlog, you’ll find personal travel journals, vivid photos, and
+          honest reflections from adventurers across the globe. Whether it was a
+          life-changing sunrise in Bali or a rainy afternoon in Paris, each post
+          shares not just what was seen — but what was felt.
+        </p>
+
+        <p class="c-about-text">
+          Our mission is to inspire mindful travel and real connection through
+          shared experiences and authentic storytelling.
+        </p>
+      </section>
+
+      <section class="c-popular-posts">
+        <h2 class="c-h2">Check out our 3 latest posts</h2>
+        <div class="c-carusel-section">
+          <div id="js-pagnation-controls-prev" aria-label="Pagnation"></div>
+          <div id="js-carusel-container"></div>
+          <div id="js-pagnation-controls-next" aria-label="Pagnation"></div>
+        </div>
+      </section>
+
+      <section class="c-filter">
+        <select name="sort-filter" id="js-sort-filter" class="c-date-filter">
+          <option value="Latest">Latest</option>
+          <option value="Oldest">Oldest</option>
+          <option value="NameAsc">A-Z</option>
+          <option value="NameDsc">Z-A</option>
+        </select>
+
+        <input
+          type="search"
+          placeholder="Search for posts..."
+          class="c-search-cont"
+          id="js-searchbar"
+        />
+      </section>
+      <section id="js-blog-posts" class="c-blog-post-cont"></section>
+      <section
+        id="js-blog-pagination"
+        class="c-main-pagination-controls"
+      ></section>
+    </main>
+    <footer class="l-footer">
+      <section class="c-icon-container">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </section>
+      <div class="c-copyrights">
+        <p>
+          &copy; 2025 RainyLands. All rights reserved. This is a student
+          project.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
