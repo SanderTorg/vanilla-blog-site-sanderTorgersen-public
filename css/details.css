@@ -1,0 +1,44 @@
+.l-spesific-blog {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  font-family: var(--font-family);
+}
+
+.c-spesific-h1 {
+  display: flex;
+  padding-bottom: 1rem;
+  justify-content: center;
+}
+
+.c-spesific-img-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.c-spesific-img {
+  display: flex;
+  max-width: 600px;
+}
+
+.c-spesific-body {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  padding: 2rem 0rem;
+}
+
+.c-spesific-auth-date {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+  font-weight: bold;
+}
+
+@media only screen and (width > 600px) {
+  .c-spesific-auth-date {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

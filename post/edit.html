@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Blog to see the world through photos and description of that place"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>WanderBlog | Edit</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script type="module" src="./edit.mjs" defer></script>
+    <script type="module" src="../src/hamburger.mjs" defer></script>
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="c-navbar">
+        <a href="/" class="c-brand-name" aria-label="link to home page"
+          >WanderBlog
+        </a>
+
+        <ul class="c-nav-menu" id="js-nav-menu">
+          <li role="home" aria-label="home page" class="c-nav-item c-uppercase">
+            <a href="/" class="c-nav-link" aria-label="link to home page"
+              >Home
+            </a>
+          </li>
+
+          <li
+            role="home"
+            aria-label="contact page"
+            class="c-nav-item c-uppercase"
+          >
+            <a
+              href="../src/contact.html"
+              class="c-nav-link"
+              aria-label="link to contact page"
+              >Contact
+            </a>
+          </li>
+
+          <div id="js-navCreate" class="c-nav-create"></div>
+        </ul>
+
+        <div class="c-nav-right">
+          <div class="c-nav-user" id="js-navUser"></div>
+          <div class="c-ham-cont">
+            <div class="c-hamburger" id="js-hamburger">
+              <span class="c-bar"></span>
+              <span class="c-bar"></span>
+              <span class="c-bar"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <section class="c-hero">
+        <h1 class="c-h1">Edit your posts</h1>
+      </section>
+
+      <section class="l-form">
+        <form id="js-edit-post-form" class="c-form-both">
+          <div class="c-cont-both">
+            <label for="title-input" class="c-form-label">Edit Title</label>
+            <input
+              id="js-edit-title"
+              class="c-form-input"
+              type="text"
+              name="title-input"
+              aria-describedby="Edit title"
+              placeholder="Edit title"
+            />
+          </div>
+
+          <div class="c-cont-both">
+            <label for="body-input" class="c-form-label">Edit Body</label>
+            <textarea
+              id="js-edit-body"
+              class="c-form-body"
+              name="body-input"
+              aria-describedby="Edit your experience"
+              placeholder="Edit text"
+            ></textarea>
+          </div>
+
+          <div class="c-cont-both">
+            <label for="media-input" class="c-form-label">Edit Url</label>
+            <input
+              id="js-edit-media"
+              name="media-input"
+              type="url"
+              class="c-form-input"
+              aria-describedby="Edit URL to change photo"
+              placeholder="Edit media url"
+            />
+          </div>
+
+          <div class="c-cont-both">
+            <label for="alt-input" class="c-form-label">Edit alt</label>
+            <input
+              id="js-edit-alt"
+              name="alt-input"
+              class="c-form-input"
+              type="text"
+              aria
+              aria-describedby="Edit Alt text for the new picture"
+              placeholder="Edit alt text"
+            />
+          </div>
+
+          <div class="c-cont-submit">
+            <button type="submit" class="c-form-submit">Change post</button>
+          </div>
+
+          <div class="c-cont-submit">
+            <button type="button" id="js-delete-btn" class="c-form-submit">
+              DELETE POST
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="l-footer">
+      <section class="c-icon-container">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </section>
+      <div class="c-copyrights">
+        <p>
+          &copy; 2025 RainyLands. All rights reserved. This is a student
+          project.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

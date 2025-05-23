@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Blog to see the world through photos and description of that place"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>WanderBlog | Contact</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script type="module" src="./contact.mjs" defer></script>
+    <script type="module" src="./hamburger.mjs" defer></script>
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="c-navbar">
+        <a href="/" class="c-brand-name" aria-label="link to home page"
+          >WanderBlog
+        </a>
+
+        <ul class="c-nav-menu" id="js-nav-menu">
+          <li role="home" aria-label="home page" class="c-nav-item c-uppercase">
+            <a href="/" class="c-nav-link" aria-label="link to home page"
+              >Home
+            </a>
+          </li>
+
+          <li
+            role="home"
+            aria-label="contact page"
+            class="c-nav-item c-uppercase"
+          >
+            <a
+              href="./contact.html"
+              class="c-nav-link"
+              aria-label="link to contact page"
+              >Contact
+            </a>
+          </li>
+
+          <div id="js-navCreate" class="c-nav-create"></div>
+        </ul>
+
+        <div class="c-nav-right">
+          <div class="c-nav-user" id="js-navUser"></div>
+          <div class="c-ham-cont">
+            <div class="c-hamburger" id="js-hamburger">
+              <span class="c-bar"></span>
+              <span class="c-bar"></span>
+              <span class="c-bar"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <section class="c-hero">
+        <h1 class="c-h1">
+          Have a question, suggestion, or just want to say hi?
+        </h1>
+      </section>
+
+      <section class="l-contact">
+        <p class="c-text">
+          We'd love to hear from you! Whether you're a traveler wanting to share
+          your story or a reader with feedback, feel free to reach out using the
+          form below or via email.
+        </p>
+
+        <div class="l-reach-us">
+          <p class="c-reach-text">
+            email: <a href="./contact.html">support@wanderlog.com</a>
+          </p>
+          <p class="c-reach-text">
+            Instagram: <a href="./contact.html">@wanderlog.world</a>
+          </p>
+          <p class="c-reach-text">
+            Tag your photos: <a href="./contact.html">#WanderlogMomenst</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="l-form">
+        <form id="js-edit-post-form" class="c-form-both">
+          <div class="c-cont-both">
+            <label for="name-input" class="c-form-label">Name</label>
+            <input
+              class="c-form-input"
+              type="text"
+              name="name"
+              placeholder="Name"
+            />
+          </div>
+
+          <div class="c-cont-both">
+            <label for="email-input" class="c-form-label">Email</label>
+            <input
+              id="js-edit-media"
+              name="email-input"
+              type="email"
+              class="c-form-input"
+              placeholder="lebron@gmail.com"
+            />
+          </div>
+
+          <div class="c-cont-both">
+            <label for="body-input" class="c-form-label">Message</label>
+            <textarea
+              id="js-edit-body"
+              class="c-form-body"
+              name="body-input"
+              placeholder="Write here"
+            ></textarea>
+          </div>
+
+          <div class="c-cont-submit">
+            <button type="submit" class="c-form-submit">submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="l-footer">
+      <section class="c-icon-container">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </section>
+      <div class="c-copyrights">
+        <p>
+          &copy; 2025 RainyLands. All rights reserved. This is a student
+          project.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

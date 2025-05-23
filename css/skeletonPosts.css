@@ -1,0 +1,51 @@
+.c-skeleton-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 200px;
+  gap: 1rem;
+}
+
+.c-skeleton-img {
+  display: flex;
+  width: 250px;
+  height: 150px;
+  background-color: gray;
+}
+
+.c-skeleton-title {
+  background-color: gray;
+  display: flex;
+  height: 40px;
+}
+
+.c-skeleton-link {
+  background-color: gray;
+  display: flex;
+  height: 40px;
+}
+
+.c-caruselSkeleton-container {
+  display: flex;
+  max-width: 500px;
+  min-height: 300px;
+  object-fit: fill;
+}
+
+.c-caruselSkeleton-img {
+  display: flex;
+  background-color: gray;
+  min-width: 146px;
+}
+
+@media only screen and (width > 400px) {
+  .c-caruselSkeleton-img {
+    width: 226px;
+  }
+}
+
+@media only screen and (width > 600px) {
+  .c-caruselSkeleton-img {
+    width: 426px;
+  }
+}

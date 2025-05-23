@@ -1,0 +1,9 @@
+.l-main-reg-log {
+  flex: 1 1 auto;
+}
+
+.l-form-reg-log {
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Blog to see the world through photos and description of that place"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>WanderBlog | Details</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script type="module" src="./details.mjs" defer></script>
+    <script type="module" src="../src/hamburger.mjs" defer></script>
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="c-navbar">
+        <a href="/" class="c-brand-name" aria-label="link to home page"
+          >WanderBlog
+        </a>
+
+        <ul class="c-nav-menu" id="js-nav-menu">
+          <li role="home" aria-label="home page" class="c-nav-item c-uppercase">
+            <a href="/" class="c-nav-link" aria-label="link to home page"
+              >Home
+            </a>
+          </li>
+
+          <li
+            role="home"
+            aria-label="contact page"
+            class="c-nav-item c-uppercase"
+          >
+            <a
+              href="../src/contact.html"
+              class="c-nav-link"
+              aria-label="link to contact page"
+              >Contact
+            </a>
+          </li>
+
+          <div id="js-navCreate" class="c-nav-create"></div>
+        </ul>
+
+        <div class="c-nav-right">
+          <div class="c-nav-user" id="js-navUser"></div>
+
+          <div class="c-ham-cont">
+            <div class="c-hamburger" id="js-hamburger">
+              <span class="c-bar"></span>
+              <span class="c-bar"></span>
+              <span class="c-bar"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main l-main-reg-log">
+      <div class="c-hero c-h1">Read magnificent posts and enjoy</div>
+
+      <section id="js-render-details-post"></section>
+    </main>
+
+    <footer class="l-footer">
+      <section class="c-icon-container">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </section>
+      <div class="c-copyrights">
+        <p>
+          &copy; 2025 RainyLands. All rights reserved. This is a student
+          project.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

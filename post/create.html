@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Blog to see the world through photos and description of that place"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>WanderBlog | Create</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script type="module" src="./create.mjs" defer></script>
+    <script type="module" src="../src/hamburger.mjs" defer></script>
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="c-navbar">
+        <a href="/" class="c-brand-name" aria-label="link to home page"
+          >WanderBlog
+        </a>
+
+        <ul class="c-nav-menu" id="js-nav-menu">
+          <li role="home" aria-label="home page" class="c-nav-item c-uppercase">
+            <a href="/" class="c-nav-link" aria-label="link to home page"
+              >Home
+            </a>
+          </li>
+
+          <li
+            role="home"
+            aria-label="contact page"
+            class="c-nav-item c-uppercase"
+          >
+            <a
+              href="../src/contact.html"
+              class="c-nav-link"
+              aria-label="link to contact page"
+              >Contact
+            </a>
+          </li>
+
+          <div id="js-navCreate" class="c-nav-create"></div>
+        </ul>
+
+        <div class="c-nav-right">
+          <div class="c-nav-user" id="js-navUser"></div>
+          <div class="c-ham-cont">
+            <div class="c-hamburger" id="js-hamburger">
+              <span class="c-bar"></span>
+              <span class="c-bar"></span>
+              <span class="c-bar"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main">
+      <section class="c-hero">
+        <h1 class="c-h1">Your space! Make a post or edit your post</h1>
+      </section>
+
+      <section class="l-form">
+        <form id="js-create-post-form" class="c-form-both">
+          <div class="c-cont-both">
+            <label for="post-title" class="c-form-label">Title</label>
+            <input
+              type="text"
+              name="title-input"
+              id="post-title"
+              class="c-form-input"
+              aria-describedby="Add a title"
+              placeholder="Make a title"
+              required
+            />
+          </div>
+
+          <div class="c-cont-both">
+            <label for="body-input" class="c-form-label">Body</label>
+            <textarea
+              id="post-body"
+              name="body-input"
+              class="c-form-body"
+              aria-describedby="Write your experience"
+              placeholder="Write your experience"
+            ></textarea>
+          </div>
+
+          <div class="c-cont-both">
+            <label for="media-input" class="c-form-label">Media URL</label>
+            <input
+              type="url"
+              id="post-media"
+              class="c-form-input"
+              name="media-input"
+              aria-describedby="Media URL"
+              placeholder="Copy photo adress"
+              required
+            />
+          </div>
+
+          <div class="c-cont-both">
+            <label for="alt-input" class="c-form-label">Media Alt</label>
+            <input
+              type="text"
+              name="alt-input"
+              id="post-alt"
+              class="c-form-input"
+              aria-describedby="Add alt tag"
+              placeholder="Describe the photo"
+              required
+            />
+          </div>
+          <div class="c-cont-submit">
+            <button type="submit" class="c-form-submit">Publish post</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="c-my-posts">
+        <h3 class="c-h3 c-my-posts-header">
+          Check your posts below. You can edit if you want!
+        </h3>
+        <div id="js-my-posts" class="c-blog-post-cont"></div>
+      </section>
+      <section
+        id="js-blog-pagination"
+        class="c-main-pagination-controls"
+      ></section>
+    </main>
+    <footer class="l-footer">
+      <section class="c-icon-container">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </section>
+      <div class="c-copyrights">
+        <p>
+          &copy; 2025 RainyLands. All rights reserved. This is a student
+          project.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

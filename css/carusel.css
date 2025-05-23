@@ -1,0 +1,87 @@
+.c-popular-posts {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-section-no-top);
+}
+
+.c-carusel-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.c-carusel-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border: 1px solid black;
+}
+
+.c-carusel-img {
+  display: flex;
+  max-width: 500px;
+  min-height: 300px;
+  object-fit: cover;
+}
+
+.c-carusel-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100%;
+  background-color: var(--bg-transparent);
+  padding: 5px 5px;
+  text-align: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.c-carusel-title {
+  display: flex;
+  color: var(--color-white);
+  font-size: var(--size-xs);
+  text-transform: capitalize;
+}
+
+.c-carusel-link {
+  display: flex;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.c-carusel-link:hover {
+  color: var(--color-hover);
+}
+
+.c-pagnation-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-btn);
+  color: var(--color-white);
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+  font-weight: bold;
+  transition: ease-in-out 0.3s;
+}
+
+.c-pagnation-btn:hover {
+  background: var(--color-hover);
+}
+
+@media only screen and (width > 600px) {
+  .c-carusel-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+}
