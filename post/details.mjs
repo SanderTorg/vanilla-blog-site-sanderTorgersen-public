@@ -17,15 +17,15 @@ async function renderPost() {
     <article class="l-spesific-blog">
       <h1 class="c-spesific-h1">${post.title}</h1>
       <div class="c-spesific-img-cont">
-        <img src="${post.media?.url}" alt="${
-      post.media?.alt
+        <img src="${post.media.url}" alt="${
+      post.media.alt
     }" class="c-spesific-img"/>
       </div>
       <p class="c-spesific-body">${post.body}</p>
 
       <div class="c-spesific-auth-date">
-        <p>Author: ${post.author?.name}</p>
-        <p>Post date: ${post.updated?.slice(0, 10)}
+        <p>Author: ${post.author.name}</p>
+        <p>Post date: ${post.updated.slice(0, 10)}
       </div>
     </article>
     `;
