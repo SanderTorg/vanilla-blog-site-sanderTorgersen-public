@@ -7,11 +7,11 @@ export function renderNavUser() {
 
   if (token && userName) {
     navUser.innerHTML = `
-    <li class="c-nav-item" role="See who is logged in">
+    <li class="c-nav-item" >
       <span>Hi, ${userName}</span>
     </li>
 
-    <li class="c-nav-item" aria-label="Sign you out" role="Log out">
+    <li class="c-nav-item" aria-label="Sign you out" >
       <button id="sign-out-btn" class="c-sign-out">Sign Out</button>
     </li>
     `;
