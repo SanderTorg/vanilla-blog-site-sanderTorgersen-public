@@ -22,11 +22,11 @@ export function renderNavUser() {
     });
   } else {
     navUser.innerHTML = `
-    <li class="c-nav-item" aria-label="Links to login page" role="link to login page">
+    <li class="c-nav-item" aria-label="Links to login page" >
       <a href="../account/login.html" class="c-nav-link" aria-label="Links to login page">LogIn</a>
     </li>
 
-    <li class="c-nav-item" role="Register page" aria-label="Links to register page">
+    <li class="c-nav-item"  aria-label="Links to register page">
       <a href="../account/register.html" class="c-nav-link" aria-label="Links to register page">Register</a>
     </li>
     `;
@@ -39,7 +39,7 @@ export function renderNavCreate() {
 
   if (token && userName) {
     navCreate.innerHTML = `
-    <li role="Ceate page" aria-label="Links to create page" class="c-nav-item c-uppercase">
+    <li  aria-label="Links to create page" class="c-nav-item c-uppercase">
       <a href="../post/create.html" class="c-nav-link" aria-label="Links to create page">Your Page</a>
     </li>
     `;
