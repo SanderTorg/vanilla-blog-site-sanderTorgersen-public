@@ -19,7 +19,7 @@ export const CREATE_POST = `${BLOG_BASE}/${REG_NAME}`;
 
 export const EDIT_POST = `${BLOG_BASE}/${REG_NAME}/${POST_ID}`;
 
-export const DETAILS_POST = `${BLOG_BASE}/${REG_NAME}/${POST_ID}`;
+export const DETAILS_POST = `${BLOG_BASE}/${POST_ID}`;
 
 export const OWNER_POST_URL = `${BLOG_BASE}/kobe`;
 export const OWNER_TOKEN =
