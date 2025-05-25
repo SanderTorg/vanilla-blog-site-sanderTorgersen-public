@@ -20,6 +20,7 @@ This is a vanilla website that displays a list of items fetched from an API.
 - [Deployment CI](https://app.netlify.com/projects/wanderblog-sandertorg/overview)
 - [API Docs](https://docs.noroff.dev/docs/v2/blog/posts)
 - [API Endpoint](https://api.noroff.dev/v2/blog/posts)
+- [Cloned Repo](https://github.com/SanderTorg/vanilla-blog-site-sanderTorgersen-public)
 
 ## Deployment
 
