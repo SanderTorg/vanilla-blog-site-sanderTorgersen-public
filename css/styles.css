@@ -474,3 +474,17 @@ img {
     text-transform: capitalize;
   }
 }
+
+@media only screen and (width>600px) {
+  .c-h1 {
+    font-size: var(--size-xl);
+  }
+
+  .c-h2 {
+    font-size: var(--size-m);
+  }
+
+  .c-h3 {
+    font-size: var(--size-s);
+  }
+}

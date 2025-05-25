@@ -16,8 +16,8 @@ This is a vanilla website that displays a list of items fetched from an API.
 - [Design](https://www.figma.com/design/6An69rToyxYY9GiPh3qtXr/EXAM-1-BLOG-Posts?node-id=0-1&t=s421VZqbtBtk614k-1)
 - [Mobile](https://www.figma.com/proto/6An69rToyxYY9GiPh3qtXr/EXAM-1-BLOG-Posts?page-id=17%3A27&node-id=17-143&viewport=279%2C407%2C0.42&t=Qvhd1j3UGYCzioe6-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=17%3A30)
 - [Desktop](https://www.figma.com/proto/6An69rToyxYY9GiPh3qtXr/EXAM-1-BLOG-Posts?page-id=0%3A1&node-id=50-1053&viewport=-1455%2C-100%2C0.65&t=OlSrTwXBda0bMQev-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=17%3A2)
-- [Production deploy](_LINK_TO_WEBSITE_)
-- [Deployment CI](_LINK_TO_NETLIFY_VERCEL_DASHBOARD_)
+- [Production deploy](https://wanderblog-sandertorg.netlify.app/)
+- [Deployment CI](https://app.netlify.com/projects/wanderblog-sandertorg/overview)
 - [API Docs](https://docs.noroff.dev/docs/v2/blog/posts)
 - [API Endpoint](https://api.noroff.dev/v2/blog/posts)
 
@@ -27,6 +27,8 @@ Your deployment is done via static hosting provider (Netlify is recommended).
 You can update your deployment pipeling by editing the [vercel.json](https://vercel.com/docs/concepts/projects/project-configuration).
 
 ## Report
+
+- [Report](https://noroff-my.sharepoint.com/:w:/g/personal/santor03022_stud_noroff_no/ETvHiamqZllLmVzG4ptbTgMBPYXInP2oGHNZ9Kl0REExlQ?e=bKtUyM)
 
 ## Getting Started
 
@@ -56,11 +58,11 @@ All of these todo's must be done to pass the asssignment.
 
 ## End-user success criteria (Optional - 100%)
 
-- [ ] End-user can search for a specific item.
-- [ ] End-user can filter the list.
-- [ ] End-user can sort list by;
-  - [ ] Name ascending order
-  - [ ] Name descending order
+- [X] End-user can search for a specific item.
+- [X] End-user can filter the list.
+- [X] End-user can sort list by;
+  - [X] Name ascending order
+  - [X] Name descending order
 - [ ] Confirmation modal after custumer submits a successful contact form.
 - [X] End-user can auto-fill the contact form using the browser auto-fill.
 - [] End-user can auto-fill the contact form using a password manager.
@@ -77,22 +79,22 @@ All of these todo's must be done to pass the asssignment.
 - [ ] As a stakeholder, I want to view the website analytics.
 - [ ] As a stakeholder, I want to show my customers a disclamer on the website, so that they are aware of the terms and conditions of using the website.
 - [ ] As a customer, I want to ensure that my personal information submitted through the contact form is kept secure and not shared with any third-party entities.
-- [ ] As a customer, I want to be able to sort, filter, or search the blog posts, so that I can quickly find the content that is most relevant to me.
+- [X] As a customer, I want to be able to sort, filter, or search the blog posts, so that I can quickly find the content that is most relevant to me.
 - [ ] As a customer, I want to be able to submit comments on a blog post, so that I can engage with other readers and share my thoughts on the topic.
-- [ ] As a customer, I want to be able to view the blog posts in a carousel, so that I can easily navigate through the content.
+- [X] As a customer, I want to be able to view the blog posts in a carousel, so that I can easily navigate through the content.
 
 ## Technical Requirements (Required - 100%)
 
 - [X] All pages should have a consistent responsive design
 - [X] All pages should pass HTML validation
-- [ ] All pages should pass WCAG requirements (minimum AA)
-- [ ] All interactive elements should have hover and focus states
+- [X] All pages should pass WCAG requirements (minimum AA)
+- [X] All interactive elements should have hover and focus states
 - [X] Site should work on all modern browsers (Chrome, Firefox, Edge, Safari)
 - [X] All forms should have proper validation with clear feedback
 - [X] Implement proper SEO meta tags
 - [X] Ensure proper semantic HTML structure
 - [X] Implement proper error handling for API requests
-- [ ] Use BEM methodology for CSS naming conventions
+- [X] Use BEM methodology for CSS naming conventions
 - [X] Ensure cross-browser compatibility
 - [X] Implement loading states for asynchronous operations
 - [X] Use proper Git workflow with feature branches
@@ -108,14 +110,14 @@ All of these todo's must be done to pass the asssignment.
 - [X] Implement proper data validation
 - [X] Use proper security measures for API calls
 - [X] Implement proper state management
-- [ ] Handle offline functionality
+- [] Handle offline functionality
 - [X] Implement proper loading states
 - [X] Use proper error handling
 
 ## Testing Requirements
 
-- [ ] Check on both mobile and desktop devices.
-- [ ] Check on both light and dark mode.
+- [X] Check on both mobile and desktop devices.
+- [X] Check on both light and dark mode.
 
 ## Performance Requirements
 
@@ -173,17 +175,17 @@ Make sure you go through this checklist before submitting your project to Moodle
 - [X] Removed all unused files.
 - [X] Named all images properly.
 - [X] Committed all my code to github.
-- [] My repo is publically viewable.
-- [] I've submitted/ written a report.
-- [] I've removed all todo notes in code.
+- [X] My repo is publically viewable.
+- [X] I've submitted/ written a report.
+- [X] I've removed all todo notes in code.
 - [X] I've removed all console logs in code.
 - [X] Code is formatted correctly.
 - [X] There are no red underlines in VSCode.
 - [X] There are no error messages in the terminal when I run the project.
 - [X] My code is indented correctly.
-- [ ] I've checked my report for grammer & spelling using grammerly or chatGPT
-- [ ] I've used used [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
-- [ ] I've checked off every todo in this README.
+- [X] I've checked my report for grammer & spelling using grammerly or chatGPT
+- [X] I've used used [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [X] I've checked off every todo in this README.
 
 ## Help & Tutorials
 
