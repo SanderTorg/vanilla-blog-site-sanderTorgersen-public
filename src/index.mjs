@@ -42,7 +42,7 @@ function renderPosts(posts) {
         <img class="c-post-img" src="${post.media.url}" alt="${post.media.alt}">
         <div class="c-carusel-text">
           <h3 class="c-post-header">${post.title}</h3>
-          <a href="../post/index.html?id=${post.id}" class="c-carusel-link">Read More</a>
+          <a href="../post/index.html?id=${post.id}" class="c-carusel-link" aria-label="Links to details page">Read More</a>
         </div>
       </div>
     `;
